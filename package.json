@@ -1,0 +1,36 @@
+{
+  "name": "unocss-bug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm cross-env NODE_ENV=\"development\" webpack serve --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@swc/core": "^1.4.8",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.75",
+    "@types/react-dom": "^18.2.24",
+    "@unocss/webpack": "^0.59.1",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.2.5",
+    "style-loader": "^4.0.0",
+    "swc-loader": "^0.2.6",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@unocss/preset-uno": "^0.59.1",
+    "cross-env": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "unocss": "^0.59.2"
+  },
+  "packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f"
+}
